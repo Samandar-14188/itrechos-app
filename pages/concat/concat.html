@@ -16,28 +16,28 @@
   </head>
   <body>
     <header>
-        <nav>
-            <img src="../../images/Logo.png" alt="LOGO" />
-            <ul>
-            <li><a href="/index.html">Home</a></li>
-            <li><a href="../services/services.html">Services</a></li>
-            <li><a href="../pages/pages.html">Pages</a></li>
-            <li><a href="../blog/blog.html">Blog</a></li>
-            <li><a href="../concat/concat.html">Contact</a></li>
-            <li>
-              <a href="tel:+49309846565"
-                ><i class="fa-solid fa-phone"></i> +49 30 9846565</a
-              >
-            </li>
-          </ul>
-        </nav>
-        <div class="navbar-title">
-            <h1>Contact us </h1>
-            <span>Home/ <span class="nav-title">Concat</span></span>
-          </div>
-      </header>
+      <nav>
+        <img src="../../images/Logo.png" alt="LOGO" />
+        <ul>
+          <li><a href="/index.html">Home</a></li>
+          <li><a href="../services/services.html">Services</a></li>
+          <li><a href="../pages/pages.html">Pages</a></li>
+          <li><a href="../blog/blog.html">Blog</a></li>
+          <li><a href="../concat/concat.html">Contact</a></li>
+          <li>
+            <a href="tel:+49309846565"
+              ><i class="fa-solid fa-phone"></i> +49 30 9846565</a
+            >
+          </li>
+        </ul>
+      </nav>
+      <div class="navbar-title">
+        <h1>Contact us</h1>
+        <span>Home/ <span class="nav-title">Concat</span></span>
+      </div>
+    </header>
     <main>
-      <section>
+      <section class="concat-list">
         <ul>
           <li>
             <h1>London</h1>
@@ -63,56 +63,81 @@
           <li>95 Place de la Garep</li>
         </ul>
       </section>
+      <section class="concat-info">
+        <section class="concat-map">
+          <Iframe>
+            
+          </Iframe>
+        </section>
+        <section class="concat-form">
+          <h1>Get in touch</h1>
+
+          <form action="">
+            <input type="text" placeholder="Your name" />
+            <input type="email" name="" id="" placeholder="Email address" />
+            <input type="text" placeholder="Web address" />
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              placeholder="Type message..."
+            ></textarea>
+            <button class="concat-btn">SEND MESSAGE NOW</button>
+          </form>
+        </section>
+      </section>
     </main>
     <footer className="footer-container">
-        <div id="nav-footer">
+      <div id="nav-footer">
+        <ul>
+          <h4>
+            <img src="../../images/Logo.png" alt="LOGO" />
+          </h4>
+          <li>About</li>
+          <li>Features</li>
+          <li>Works</li>
+          <li>Career</li>
+        </ul>
+        <ul>
+          <h4>Help</h4>
+          <li>Customer Support</li>
+          <li>Delivery Details</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+        <ul>
+          <h4>Resources</h4>
+          <li>Free eBooks</li>
+          <li>Development Tutorial</li>
+          <li>How to - Blog</li>
+          <li>YouTube Playlist</li>
+        </ul>
+        <ul>
+          <h4>Extra Links</h4>
+          <li>Customer Support</li>
+          <li>Delivery Details</li>
+          <li>Terms & Conditions</li>
+          <li>Privacy Policy</li>
+        </ul>
+      </div>
+      <div id="footer-info">
+        <div id="footer-item">
           <ul>
-            <h4>
-                <img src="../../images/Logo.png" alt="LOGO" />
-            </h4>
-            <li>About</li>
-            <li>Features</li>
-            <li>Works</li>
-            <li>Career</li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-youtube"></i></li>
           </ul>
-          <ul>
-            <h4>Help</h4>
-            <li>Customer Support</li>
-            <li>Delivery Details</li>
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
-          </ul>
-          <ul>
-            <h4>Resources</h4>
-            <li>Free eBooks</li>
-            <li>Development Tutorial</li>
-            <li>How to - Blog</li>
-            <li>YouTube Playlist</li>
-          </ul>
-          <ul>
-            <h4>Extra Links</h4>
-            <li>Customer Support</li>
-            <li>Delivery Details</li>
-            <li>Terms & Conditions</li>
-            <li>Privacy Policy</li>
-          </ul>
+
+          <span>Privacy Policy </span>
+          <span>Terms & Conditions </span>
+          <span>Support</span>
         </div>
-        <div id="footer-info">
-          <div id="footer-item">
-            <ul>
-              <li><i class="fa-brands fa-facebook-f"></i></li>
-              <li><i class="fa-brands fa-instagram"></i></li>
-              <li><i class="fa-brands fa-twitter"></i></li>
-              <li><i class="fa-brands fa-youtube"></i></li>
-            </ul>
-  
-            <span>Privacy Policy </span>
-            <span>Terms & Conditions </span>
-            <span>Support</span>
-          </div>
-          <div className="">
-            <span>© Copyright 2024, All Rights Reserved by company</span>
-          </div>
+        <div className="">
+          <span>© Copyright 2024, All Rights Reserved by company</span>
         </div>
-      </footer>  </body>
+      </div>
+    </footer>
+  </body>
 </html>
