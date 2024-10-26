@@ -29,8 +29,6 @@ nav {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  width: Fixed (1, 296px) px;
-  height: Hug (112px) px;
   top: 168px;
   left: 312px;
   gap: 12px;
@@ -218,9 +216,9 @@ footer {
 /* work style */
 .works-container {
   max-width: 1920px;
-  height: 2166px;
+  height: 2000px;
   top: 360px;
-  padding: 100px;
+  padding: 100px ;
   gap: 48px;
 }
 .works-filter-container {
@@ -254,6 +252,7 @@ footer {
   border: 1px 0px 0px 0px;
   background-color: #ffffff;
   border: 1px solid #1a1d271a;
+  cursor: pointer;
 }
 .works-title {
   height: 100%;
@@ -264,10 +263,42 @@ footer {
 .works-filter {
   padding-bottom: 15px;
 }
-.works-card-container{
-  width:  1296px;
-height: 1776px;
-gap: 24px;
-opacity: 0px;
+.works-card-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  padding-top: 50px;
+}
+.works-card {
+  width: 500px;
+  height: 408px;
+}
+.works-card img {
+  width: 500px;
+  height: 300px;
+  border-radius: 24px ;
+}
+.works-card h4 {
+font-family: Syne;
+font-size: 20px;
+font-weight: 700;
+line-height: 28px;
+text-align: left;
+color: #1A1D27;
+margin-top: 10px;
+}
+.works-card p {
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #1A1D27CC;
+margin-top: 10px;
+}
+.works-filter button:hover {
+  background-color: #1A1D27;
+  color: #FFFFFF;
 
 }
