@@ -184,7 +184,7 @@ footer {
 .it-search-text {
   width: 828px;
   height: 144px;
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
   font-size: 64px;
   font-weight: 700;
   line-height: 72px;
@@ -196,9 +196,9 @@ footer {
 .search-btn {
   width: 186px;
   height: 56px;
-  padding: 20px ;
+  padding: 20px;
   background-color: #1a1d27;
-  font-family: 'Syne', sans-serif;
+  font-family: "Syne", sans-serif;
   font-size: 15px;
   font-weight: 500;
   letter-spacing: 1px;
@@ -211,7 +211,63 @@ footer {
 }
 
 .search-btn:hover {
-  background-color: white; 
+  background-color: white;
   color: black;
-  transform: scale(1.05); 
+  transform: scale(1.05);
+}
+/* work style */
+.works-container {
+  max-width: 1920px;
+  height: 2166px;
+  top: 360px;
+  padding: 100px;
+  gap: 48px;
+}
+.works-filter-container {
+  max-width: 1296px;
+  height: 122px;
+  display: flex;
+  align-items: end;
+  justify-content: space-between;
+}
+.works-filter-container span {
+  font-family: Syne;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #e374ff;
+}
+.works-filter-container h2 {
+  font-family: Syne;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 72px;
+  text-align: left;
+  color: #1a1d27;
+}
+.works-filter button {
+  width: 162px;
+  height: 56px;
+  padding: 20px 40px 20px 40px;
+  gap: 8px;
+  border: 1px 0px 0px 0px;
+  background-color: #ffffff;
+  border: 1px solid #1a1d271a;
+}
+.works-title {
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+.works-filter {
+  padding-bottom: 15px;
+}
+.works-card-container{
+  width:  1296px;
+height: 1776px;
+gap: 24px;
+opacity: 0px;
+
 }
