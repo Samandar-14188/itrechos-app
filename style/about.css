@@ -741,16 +741,15 @@ figure {
   height: 218px;
   height: 56px;
   padding: 20px 40px 20px 40px;
-  background-color: #1A1D27;
-  color: #FFFFFF;
-
+  background-color: #1a1d27;
+  color: #ffffff;
 }
 .work-btn {
   height: 218px;
   height: 56px;
   padding: 20px 40px 20px 40px;
-  color: #1A1D27;
-  background-color: #FFFFFF;
+  color: #1a1d27;
+  background-color: #ffffff;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -758,24 +757,22 @@ figure {
 }
 /* percentage style */
 .percentage-container {
- 
   padding: 100px;
 }
 .percentage-container span {
-font-family: Syne;
-font-size: 44px;
-font-weight: 700;
-line-height: 54px;
-text-align: left;
-color: #1A1D27;
-
+  font-family: Syne;
+  font-size: 44px;
+  font-weight: 700;
+  line-height: 54px;
+  text-align: left;
+  color: #1a1d27;
 }
 .percentage-container p {
-font-family: Syne;
-font-size: 18px;
-font-weight: 700;
-line-height: 26px;
-text-align: left;
-color: #1A1D27CC;
-padding-top: 10px;
+  font-family: Syne;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 26px;
+  text-align: left;
+  color: #1a1d27cc;
+  padding-top: 10px;
 }
