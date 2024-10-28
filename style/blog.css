@@ -308,13 +308,13 @@ footer ul li h4 {
   background-color: #1a1d27;
   color: #ffffff;
 }
-.works-card ul {
+.works-card ul, .works-cards ul {
   display: flex;
   align-items: center;
   gap: 30px;
   padding: 20px;
 }
-.works-card ul li {
+.works-card ul li, .works-cards ul li{
   font-family: Syne;
   font-size: 16px;
   font-weight: 400;
@@ -336,4 +336,88 @@ footer ul li h4 {
 .works-card span:hover svg {
   transform: rotate(45deg);
   stroke: #007bff;
+}
+.works-cardID .works-card, .works-cards-container  {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.works-card-info {
+  width: 416px;
+  height: 232px;
+}
+.works-cards {
+  width: 386px;
+  height: 144px;
+  background-color: #ECEEF2;
+  border-radius: 15px;
+  padding: 20px;
+}
+.works-cards-container {
+ gap: 20px;
+}
+.works-cards-container h4 {
+height: 52px;
+font-family: Syne;
+font-size: 18px;
+font-weight: 700;
+line-height: 26px;
+text-align: left;
+}
+.works-cards-container ul {
+  padding: 0 20px 20px;
+}
+.works-cardID-container {
+  padding: 0px 100px 50px;
+}
+.works-subscribe {
+  max-width: 1296px;
+height: 304px;
+padding: 100px;
+border-radius: 16px ;
+background-color: #1A1D27;
+margin-top: 100px;
+display: flex;
+align-items: center;
+justify-content: space-between;
+}
+.works-subscribe h2 {
+font-family: Syne;
+font-size: 44px;
+font-weight: 700;
+line-height: 54px;
+text-align: left;
+color: #FFFFFF;
+}
+.works-subscribe p {
+font-family: Syne;
+font-size: 16px;
+font-weight: 400;
+line-height: 24px;
+text-align: left;
+color: #FFFFFF;
+opacity: 80%;
+}
+.works-subscribe button {
+  width:174px;
+height: 56px;
+padding: 20px 40px 20px 40px;
+gap: 8px;
+opacity: 0px;
+background-color: #FFFFFF;
+font-family: Syne;
+font-size: 15px;
+font-weight: 500;
+line-height: 16px;
+letter-spacing: 1px;
+text-align: center;
+color: #1A1D27;
+cursor: pointer;
+border: none;
+}
+.works-subscribe button:hover {
+  color: white;
+  background-color: black;
+  transform: scale(1.05);
 }
