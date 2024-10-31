@@ -6,7 +6,7 @@
 
 /* header style  */
 header {
-  max-width: 1920px;
+  width: 100%;
   max-height: 96px;
   padding: 24px 150px 24px 100px;
   gap: 10px;
@@ -90,7 +90,7 @@ li:hover a {
 
 }
 #nav-footer {
-  width: 1296px;
+  max-width: 1296px;
  display: flex;
  align-items: center;
  justify-content: space-between;
@@ -132,7 +132,7 @@ li:hover a {
   width: 150px;
 }
 .it-search {
-  max-width: 1920px;
+  width: 100%;
   height: 420px;
   gap: 0px;
   padding: 0px 50px;
@@ -181,3 +181,80 @@ li:hover a {
   color: black;
   transform: scale(1.05); 
 }
+/* create cursor */
+body {
+  cursor:auto;
+}
+.custom-cursor {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 25px;
+  height: 25px;
+  background: radial-gradient(circle, aqua 0%, aqua 60%, aqua 100%);
+  border-radius: 50%;
+  pointer-events: none;
+  transform: translate(-50%, -50%);
+  transition: transform 0.15s ease,  0.3s ease;
+  box-shadow: 0 0 15px rgba(255, 87, 51, 0.6), 0 0 30px rgba(255, 87, 51, 0.4);
+  z-index: 1000;
+}
+
+p:hover ~ .custom-cursor {
+  transform: translate(-50%, -50%) scale(1.8);
+  background: radial-gradient(circle, rgba(255, 140, 0, 1) 0%, rgba(255, 87, 51, 1) 60%, rgba(255, 140, 0, 0.7) 100%);
+  box-shadow: 0 0 20px rgba(255, 140, 0, 0.6), 0 0 40px rgba(255, 87, 51, 0.5);
+}
+
+.custom-cursor-move {
+  transition: transform 0.1s ease;
+}
+/* btn style */
+.hero-btn {
+  display: flex;
+  gap: 15px;
+}
+
+
+.explore-btn {
+  color: #FFFFFF;
+  background-color: #070706;
+  padding: 10px 20px;
+  border: 2px solid #070706;
+  border-radius: 5px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+
+.explore-btn:hover {
+  color: #070706;
+  background-color: #FFFFFF;
+  border-color: #070706;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+
+
+.video-btn {
+  color: #1A1D27;
+  background-color: transparent;
+  padding: 10px 20px;
+  border: 2px solid #1A1D27;
+  border-radius: 5px;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.video-btn:hover {
+  color: #FFFFFF;
+  background-color: #1A1D27;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  transform: translateY(-3px);
+}
+

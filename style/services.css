@@ -125,7 +125,7 @@ footer {
   padding: 50px 100px;
 }
 #nav-footer {
-  width: 1296px;
+  max-width: 1296px;
   display: flex;
   align-items: center;
   justify-content: space-between;
